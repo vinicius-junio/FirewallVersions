@@ -17,20 +17,14 @@ API Palo Alto Project searches through IP's and returns System and License data 
 Functionalities
 ============
 - Reading IP's listing;
-
 - At each API request a new API key is automatically generated;
-
 - Get the data via API and direct it to a SQLite database;
-
 - Get the SQLite Database Storage and add it to an XLSX file;
-
 - URL or port not found error handling:
 If a URL or PORT is wrong, it will generate the text file "error_firewall.log" which will be in the same directory as the Python Script.
 Example Error log: 2022-01-22 19:33:34 WARNING Failed url: https://111.222.333.54:444" (the port 3 is missing);
-
 - Excel file formatting:
 Table Formatting, Table Name: "Firewall" and Sheet Name "Firewall";
-
 - License module for consultation.
 
 Requisites
